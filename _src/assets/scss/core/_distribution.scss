@@ -10,6 +10,13 @@
   align-items: center;
   padding-top: 284px;
 
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__link {
     position: fixed;
     top: 0;
@@ -89,3 +96,5 @@
     padding-bottom: 45px;
   }
 }
+
+// DISTRIBUCIÓN DESKTOP
