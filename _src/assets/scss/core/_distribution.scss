@@ -44,18 +44,39 @@
   height: 19%;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  &__title {
+    padding-bottom: 15px;
+  }
+  &__content {
+    padding-bottom: 30px;
+  }
 }
-
 // ASIDE
 .aside {
   height: 31%;
   padding-top: 30px;
-  position: static;
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 75px 138px 138px 138px 105px;
     text-align: center;
+  }
+  &__title {
+    align-self: center;
+  }
+  &__item5 {
+    align-self: center;
+  }
+  &__item2 {
+    align-self: center;
+  }
+  &__item3 {
+    align-self: center;
+  }
+  &__item4 {
+    align-self: center;
   }
   &__button {
     width: 45px;
@@ -65,7 +86,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: -774px;
+    bottom: -878px;
   }
   &__buttonbox {
     display: flex;
@@ -97,4 +118,55 @@
   }
 }
 
-// DISTRIBUCIÓN DESKTOP
+// DISTRIBUCIÓN TABLET
+
+// ASIDE
+
+@media all and (min-width: 768px) {
+  .aside {
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 75px 157px 165px;
+      text-align: center;
+    }
+    &__title {
+      grid-column: 1 / 4;
+    }
+    &__item5 {
+      grid-column: 2 / 3;
+    }
+    &__button {
+      position: absolute;
+      top: 1203px;
+    }
+  }
+}
+
+// FOOTER
+@media all and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 39px;
+    padding-right: 39px;
+
+    &__copyright {
+      order: 1;
+      text-align: start;
+    }
+    &__menu1 {
+      order: 2;
+      text-align: start;
+      padding-top: 33px;
+    }
+    &__menu2 {
+      order: 3;
+      text-align: start;
+    }
+  }
+}
+//  DISTRIBUCIÓN DESKTOP
+
+@media all and (min-width: 1200px) {
+}
