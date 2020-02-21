@@ -1,7 +1,7 @@
 // HEADER//
 .header {
   background-image: url("../images/cover.jpg");
-  object-fit: cover;
+  background-size: cover;
   height: 568px;
   display: flex;
   flex-direction: row;
@@ -31,11 +31,36 @@
 // MAIN//
 .main {
   height: 19%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+// ASIDE
 .aside {
   height: 31%;
+  padding-top: 30px;
+  position: static;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 138px 138px 138px 105px;
+    text-align: center;
+  }
+  &__button {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: 138px;
+    margin-right: 138px;
+    bottom: -774px;
+  }
 }
+
+// FOOTER
 .footer {
   height: 23%;
 }
