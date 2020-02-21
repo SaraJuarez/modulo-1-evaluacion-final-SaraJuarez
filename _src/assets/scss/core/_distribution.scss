@@ -1,3 +1,4 @@
+// DISTRIBUCIONES MOBILE
 // HEADER//
 .header {
   background-image: url("../images/cover.jpg");
@@ -25,6 +26,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  &__box-link {
+    padding-top: 45px;
   }
 }
 
@@ -54,13 +58,38 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-left: 138px;
-    margin-right: 138px;
     bottom: -774px;
+  }
+  &__buttonbox {
+    display: flex;
+    justify-content: center;
   }
 }
 
 // FOOTER
 .footer {
   height: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__menu1 {
+    padding-top: 60px;
+    // padding-right: 124px;
+    // padding-left: 124px;
+    padding-bottom: 30px;
+  }
+  &__menu2 {
+    // padding-right: 87px;
+    // padding-left: 87px;
+    padding-bottom: 30px;
+  }
+  &__copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 45px;
+  }
 }
