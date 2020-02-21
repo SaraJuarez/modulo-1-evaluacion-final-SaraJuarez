@@ -9,18 +9,21 @@
 </head>
 <body>
   <header>
-    <a title="Menú" href="#"><img src="./ico-menu.svg" alt="Logo menu"/></a>
+    <a class="header__link" title="Menú" href="#"><img src="./ico-menu.svg" alt="Logo menu"/></a>
+    <div class="header__box"> 
     <h1>Anonymus Proxy</h1>
     <p>In hac habitasse platea dictumst.</p>
     <a title="Ir a la siguiente sección" href="#"><img src="./ico-arrow.svg" alt="Link ir hacia abajo"/></a>
+    </div>
   </header>
   <main>
-    <small>Insomnia Tips</small>
-    <h2>Looking Through A Window</h2>
-    <p>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-    <a title="Ir al artículo" href="#">Go</a>
+    <small class="main__small">Insomnia Tips</small>
+    <h2 class="main__title">Looking Through A Window</h2>
+    <p class="main__content">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+    <a class="main__link" title="Ir al artículo" href="#">Go</a>
   </main>
   <aside>
+    <div class="aside-grip">
     <h2>3 Reasons To Purchase</h2>
     <article>
       <h3>Ut sed metus</h3>
@@ -37,12 +40,13 @@
     <div>
     <a title="Conocer más razones" href="#">More reasons</a>
     </div>
-    <div>
-      <a title="Ir arriba" href="#"><img src="./ico-arrow.svg" alt="Link subir arriba"/></a>
+    </div>
+    <div class="aside">
+      <a class="aside__link" title="Ir arriba" href="#"><img src="./ico-arrow.svg" alt="Link subir arriba"/></a>
     </div>
   </aside>
-  <footer>
-    <nav>
+  <footer class="footer">
+    <nav class="footer_menu1">
       <ul>
         <li><a href="#" title="Ir a artículos">Articles</a></li>
         <li><a href="#" title="Ir a artículos">Books</a></li>
@@ -51,14 +55,14 @@
         <li><a href="#" title="Ir a artículos">Tips</a></li>
       </ul>
     </nav>
-    <nav>
+    <nav class="footer_menu2">
       <ul>
         <li><a href="#" title="Ir a artículos">Twitter</a></li>
         <li><a href="#" title="Ir a artículos">Instagram</a></li>
         <li><a href="#" title="Ir a artículos">Mastodon.social</a></li>
       </ul>
     </nav>
-    <div>
+    <div class="copyright">
     <small>&copy; 2017</small>
     <small>we &#9829; components</small>
     </div>
