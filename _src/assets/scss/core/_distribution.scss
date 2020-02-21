@@ -1,0 +1,9 @@
+// header//
+.header {
+  background-image: url("./assets/images/cover.jpg");
+  &__link {
+    position: absolute;
+    top: 0;
+    background-color: #0271bc;
+  }
+}
