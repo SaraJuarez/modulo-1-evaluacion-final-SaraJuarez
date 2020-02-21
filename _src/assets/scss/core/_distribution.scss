@@ -1,9 +1,41 @@
-// header//
+// HEADER//
 .header {
-  background-image: url("./assets/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
+  object-fit: cover;
+  height: 568px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 284px;
+
   &__link {
-    position: absolute;
+    position: fixed;
     top: 0;
+    left: 0;
     background-color: #0271bc;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+// MAIN//
+.main {
+  height: 19%;
+}
+
+.aside {
+  height: 31%;
+}
+.footer {
+  height: 23%;
 }
