@@ -1,3 +1,31 @@
 .header {
   color: #fff;
+  &__title {
+    font-family: $fontHeadertitle;
+  }
+
+  &__content {
+    font-family: $fontHeadercontent;
+  }
+}
+
+@media all and (min-width: 320px) {
+  .header {
+    &__title {
+      @include header-mobile-title;
+    }
+    &__content {
+      font-size: 16px;
+    }
+  }
+}
+@media all and (min-width: 768px) {
+  .header {
+    &__title {
+      @include header-tablet-title;
+    }
+    &__content {
+      font-size: 24px;
+    }
+  }
 }

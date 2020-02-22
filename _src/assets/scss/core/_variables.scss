@@ -1,0 +1,15 @@
+// fonts
+$fontHeadertitle: "Roboto Slab", bold;
+$fontHeadercontent: "Roboto";
+// colors
+
+// mixins
+@mixin header-mobile-title {
+  font-size: 42px;
+  line-height: 55px;
+}
+
+@mixin header-tablet-title {
+  font-size: 80px;
+  line-height: 106px;
+}
