@@ -22,11 +22,11 @@
     line-height: 45px;
   }
   &__link {
-    border: solid 2px #f26002;
+    border: solid 2px $colororange;
     width: 76px;
     height: 45px;
     border-radius: 25px;
-    color: #f26002;
+    color: $colororange;
     background-color: white;
   }
 }

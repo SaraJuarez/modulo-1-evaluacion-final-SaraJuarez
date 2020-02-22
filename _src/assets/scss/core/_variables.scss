@@ -2,6 +2,8 @@
 $fonttitle: "Roboto Slab", bold;
 $fontcontent: "Roboto";
 // colors
+$colorbackgroundfooter: #304268;
+$colororange: #f26002;
 
 // MIXINS
 
@@ -25,4 +27,12 @@ $fontcontent: "Roboto";
   font-size: 18px;
   line-height: 30px;
   color: black;
+}
+
+// footer
+
+@mixin footer-menus {
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
 }

@@ -1,0 +1,24 @@
+.footer {
+  background-color: $colorbackgroundfooter;
+  a {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-family: $fontcontent;
+  }
+  &__copyright {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+  }
+  &__heart {
+    color: $colororange;
+  }
+  &__menu1 {
+    @include footer-menus;
+  }
+  &__menu2 {
+    @include footer-menus;
+  }
+}
