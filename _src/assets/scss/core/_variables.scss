@@ -19,3 +19,10 @@ $fontcontent: "Roboto";
   font-size: 100px;
   line-height: 132px;
 }
+//  aside
+
+@mixin aside-text {
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+}

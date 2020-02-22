@@ -1,0 +1,60 @@
+.aside {
+  &__title {
+    font-family: $fonttitle;
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+  }
+  &__item2 {
+    @include aside-text;
+    font-family: $fonttitle;
+  }
+  &__item3 {
+    @include aside-text;
+    font-family: $fonttitle;
+  }
+  &__item4 {
+    @include aside-text;
+    font-family: $fonttitle;
+  }
+  p {
+    @include aside-text;
+    font-family: $fontcontent;
+  }
+  &__link {
+    background-color: #f26002;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: $fontcontent, medium;
+  }
+
+  &__item5 {
+    width: 184px;
+    height: 45px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .aside {
+    &__title {
+      font-size: 26px;
+      line-height: 45px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .aside {
+    &__title {
+      font-size: 32px;
+    }
+  }
+}
