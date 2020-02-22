@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
   }
 
   &__link {
@@ -122,55 +123,55 @@
 
 // ASIDE
 
-@media all and (min-width: 768px) {
-  .aside {
-    &__wrapper {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 75px 157px 165px;
-      text-align: center;
-    }
-    &__title {
-      grid-column: 1 / 4;
-    }
-    &__item5 {
-      grid-column: 2 / 3;
-    }
-    &__button {
-      position: absolute;
-      top: 1203px;
-    }
-  }
-}
+// @media all and (min-width: 768px) {
+//   .aside {
+//     &__wrapper {
+//       display: grid;
+//       grid-template-columns: 1fr 1fr 1fr;
+//       grid-template-rows: 75px 157px 165px;
+//       text-align: center;
+//     }
+//     &__title {
+//       grid-column: 1 / 4;
+//     }
+//     &__item5 {
+//       grid-column: 2 / 3;
+//     }
+//     &__button {
+//       position: absolute;
+//       top: 1203px;
+//     }
+//   }
+// }
 
-// FOOTER
-@media all and (min-width: 768px) {
-  .footer {
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 39px;
-    padding-right: 39px;
+// // FOOTER
+// @media all and (min-width: 768px) {
+//   .footer {
+//     flex-direction: row;
+//     justify-content: space-between;
+//     padding-left: 39px;
+//     padding-right: 39px;
 
-    &__copyright {
-      order: 1;
-      text-align: start;
-    }
-    &__menu1 {
-      order: 2;
-      text-align: start;
-      padding-top: 33px;
-    }
-    &__menu2 {
-      order: 3;
-      text-align: start;
-    }
-  }
-}
-//  DISTRIBUCIÓN DESKTOP
+//     &__copyright {
+//       order: 1;
+//       text-align: start;
+//     }
+//     &__menu1 {
+//       order: 2;
+//       text-align: start;
+//       padding-top: 33px;
+//     }
+//     &__menu2 {
+//       order: 3;
+//       text-align: start;
+//     }
+//   }
+// }
+// //  DISTRIBUCIÓN DESKTOP
 
-@media all and (min-width: 1200px) {
-  .main,
-  .header {
-    padding: 0 275px 0 275px;
-  }
-}
+// @media all and (min-width: 1200px) {
+//   .main,
+//   .header {
+//     padding: 0 275px 0 275px;
+//   }
+// }
