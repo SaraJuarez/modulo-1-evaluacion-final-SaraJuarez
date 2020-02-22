@@ -1,2 +1,8 @@
 .header {
+  font-family: $header-fontfamily;
+  color: $header-fontcolor;
+}
+
+@media all and (max-width: 768px) {
+  @include headertext-mobile;
 }

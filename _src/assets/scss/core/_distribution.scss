@@ -169,4 +169,8 @@
 //  DISTRIBUCIÓN DESKTOP
 
 @media all and (min-width: 1200px) {
+  .main,
+  .header {
+    padding: 0 275px 0 275px;
+  }
 }
