@@ -9,6 +9,8 @@
   justify-content: center;
   align-items: center;
   padding-top: 284px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   &__title {
     display: flex;
@@ -117,8 +119,20 @@
     padding-bottom: 45px;
   }
 }
+ul {
+  list-style: none;
+}
 
-// DISTRIBUCIÓN TABLET
+// DISTRIBUCIONES TABLET
+
+// MAIN
+
+@media all and (min-width: 768px) {
+  .main {
+    padding-left: 39px;
+    padding-left: 39px;
+  }
+}
 
 // ASIDE
 
@@ -166,7 +180,47 @@
     }
   }
 }
-//  DISTRIBUCIÓN DESKTOP
+//  DISTRIBUCIONES DESKTOP
+
+// HEADER
+@media all and (min-width: 1200px) {
+  .header {
+    padding-left: 275px;
+    padding-right: 275px;
+  }
+}
+
+// MAIN
 
 @media all and (min-width: 1200px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 275px 60px 275px;
+  }
+}
+
+// ASIDE
+
+@media all and (min-width: 1200px) {
+  .aside {
+    padding: 60px 275px 60px 275px;
+  }
+}
+
+// FOOTER
+
+@media all and (min-width: 1200px) {
+  .footer {
+    justify-content: center;
+    padding: 45px 370px 45px 370px;
+
+    &__menu1 {
+      padding-right: 30px;
+    }
+    &__copyright {
+      padding-right: 30px;
+    }
+  }
 }

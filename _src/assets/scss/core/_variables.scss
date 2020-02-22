@@ -4,6 +4,8 @@ $fontHeadercontent: "Roboto";
 // colors
 
 // mixins
+
+// header
 @mixin header-mobile-title {
   font-size: 42px;
   line-height: 55px;
@@ -12,4 +14,8 @@ $fontHeadercontent: "Roboto";
 @mixin header-tablet-title {
   font-size: 80px;
   line-height: 106px;
+}
+@mixin header-desktop-title {
+  font-size: 100px;
+  line-height: 132px;
 }

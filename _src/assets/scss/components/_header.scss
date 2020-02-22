@@ -29,3 +29,11 @@
     }
   }
 }
+
+@media all and (min-width: 1200px) {
+  .header {
+    &__title {
+      @include header-desktop-title;
+    }
+  }
+}
