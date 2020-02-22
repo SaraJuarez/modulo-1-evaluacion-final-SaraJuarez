@@ -138,6 +138,8 @@ ul {
 
 @media all and (min-width: 768px) {
   .aside {
+    padding-left: 39px;
+    padding-right: 39px;
     &__wrapper {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
