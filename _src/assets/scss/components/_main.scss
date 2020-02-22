@@ -20,14 +20,15 @@
   &__link {
     font-size: 20px;
     line-height: 45px;
-  }
-  &__link {
     border: solid 2px $colororange;
     width: 76px;
     height: 45px;
     border-radius: 25px;
     color: $colororange;
     background-color: white;
+  }
+  &__link:hover {
+    box-shadow: 0 10px 15px $colororange;
   }
 }
 
