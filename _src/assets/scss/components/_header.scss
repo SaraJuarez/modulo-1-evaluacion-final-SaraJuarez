@@ -1,8 +1,20 @@
 .header {
-  font-family: $header-fontfamily;
   color: $header-fontcolor;
+  &__title {
+    font-family: $header-fontfamilytitle;
+  }
+  &__content {
+    font-family: $header-fontfamilycontent;
+  }
 }
 
 @media all and (max-width: 768px) {
-  @include headertext-mobile;
+  .header__box {
+    @include headertitle-mobile;
+  }
+}
+@media all and (min-widht: 768px) {
+  .header__box {
+    @inclide headertitle-tablet;
+  }
 }

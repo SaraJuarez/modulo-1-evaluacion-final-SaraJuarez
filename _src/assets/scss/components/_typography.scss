@@ -1,18 +1,19 @@
 // HEADER
 
-$header-fontfamily: "Roboto Slab" bold;
+$header-fontfamilytitle: "Roboto Slab";
+$header-fontfamilycontent: "Roboto";
 $header-fontcolor: #ffff;
-@mixin headertext-mobile {
+@mixin headertitle-mobile {
   font-size: 42px;
   line-height: 55px;
 }
 
-@mixin headertext-tablet {
+@mixin headertitle-tablet {
   font-size: 80px;
   line-height: 106px;
 }
 
-@mixin headertext-desktop {
+@mixin headertitle-desktop {
   font-size: 100px;
   line-height: 132px;
 }
