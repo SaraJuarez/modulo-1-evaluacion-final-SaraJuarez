@@ -1,0 +1,61 @@
+.main {
+  &__small {
+    font-family: $fontcontent;
+    font-size: 14px;
+    line-height: 30px;
+    color: #8cabea;
+  }
+  &__title {
+    font-family: $fonttitle;
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+  }
+  &__content {
+    font-family: $fontcontent;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4a4a4a;
+  }
+  &__link {
+    font-size: 20px;
+    line-height: 45px;
+  }
+  &__link {
+    border: solid 2px #f26002;
+    width: 76px;
+    height: 45px;
+    border-radius: 25px;
+    color: #f26002;
+    background-color: white;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .main {
+    &__title {
+      font-size: 26px;
+      line-height: 45px;
+    }
+    &__content {
+      font-size: 20px;
+    }
+    &__link {
+      width: 91px;
+    }
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .main {
+    &__small {
+      font-size: 16px;
+    }
+    &__title {
+      font-size: 32px;
+    }
+    &__link {
+      width: 160px;
+    }
+  }
+}
