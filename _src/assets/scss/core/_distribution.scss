@@ -37,9 +37,12 @@
     padding-top: 284px;
     height: 100%;
   }
+  &__box-button {
+    margin-right: 138px;
+    margin-left: 138px;
+    bottom: 53px;
+  }
   &__box-link {
-    margin-top: 45px;
-    margin-bottom: 53px;
     display: flex;
     justify-content: center;
   }
@@ -141,9 +144,8 @@ ul {
     &__box {
       padding-top: 384px;
     }
-    &__box-link {
-      padding-top: 30px;
-      padding-bottom: 45px;
+    &__box-button {
+      bottom: 45px;
     }
   }
 }
@@ -203,8 +205,8 @@ ul {
   .header {
     padding-left: 275px;
     padding-right: 275px;
-    &__box-link {
-      padding-bottom: 13px;
+    &__box-button {
+      bottom: 13px;
     }
   }
 }
