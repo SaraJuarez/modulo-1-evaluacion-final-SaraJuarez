@@ -34,7 +34,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 284px;
+    margin-top: 284px;
+    height: 100%;
   }
   &__box-link {
     padding-top: 45px;
@@ -64,6 +65,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 75px 138px 138px 138px 105px;
     text-align: center;
+    position: static;
   }
   &__title {
     align-self: center;
@@ -87,8 +89,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: -878px;
+    position: relative;
+    top: 21px;
   }
   &__buttonbox {
     display: flex;
@@ -154,8 +156,8 @@ ul {
       grid-column: 2 / 3;
     }
     &__button {
-      position: absolute;
-      top: 1203px;
+      position: relative;
+      top: 20px;
     }
   }
 }
