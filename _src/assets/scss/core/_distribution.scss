@@ -38,7 +38,7 @@
     height: 100%;
   }
   &__box-link {
-    padding-top: 45px;
+    margin-top: 45px;
   }
 }
 
@@ -127,6 +127,15 @@ ul {
 }
 
 // DISTRIBUCIONES TABLET
+
+// HEADER
+@media all and (min-width: 768px) {
+  .main {
+    &__box-link {
+      margin-top: 30px;
+    }
+  }
+}
 
 // MAIN
 

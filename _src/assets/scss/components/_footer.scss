@@ -15,6 +15,24 @@
   &__heart {
     color: $colororange;
   }
+
+  &__animation {
+    animation-name: heart;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes heart {
+    from {
+      transform: none;
+    }
+    50% {
+      transform: scale(4);
+    }
+    to {
+      transform: none;
+    }
+  }
+
   &__menu1 {
     @include footer-menus;
   }
