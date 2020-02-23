@@ -35,9 +35,13 @@
     justify-content: center;
     align-items: center;
     padding-top: 284px;
+    height: 100%;
   }
   &__box-link {
-    padding-top: 45px;
+    margin-top: 45px;
+    margin-bottom: 53px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -126,12 +130,21 @@ ul {
 
 // DISTRIBUCIONES TABLET
 
-// MAIN
+// MAIN & HEADER
 
 @media all and (min-width: 768px) {
   .main {
     padding-left: 39px;
     padding-left: 39px;
+  }
+  .header {
+    &__box {
+      padding-top: 384px;
+    }
+    &__box-link {
+      padding-top: 30px;
+      padding-bottom: 45px;
+    }
   }
 }
 
@@ -190,6 +203,9 @@ ul {
   .header {
     padding-left: 275px;
     padding-right: 275px;
+    &__box-link {
+      padding-bottom: 13px;
+    }
   }
 }
 

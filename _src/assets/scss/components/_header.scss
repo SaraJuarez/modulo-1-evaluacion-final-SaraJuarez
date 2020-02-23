@@ -7,6 +7,13 @@
   &__content {
     font-family: $fontcontent;
   }
+  &__box-link {
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+    border: 0;
+  }
 }
 
 @media all and (min-width: 320px) {
