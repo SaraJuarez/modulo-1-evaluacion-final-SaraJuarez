@@ -32,6 +32,12 @@
     display: flex;
     justify-content: center;
   }
+  &__link:hover {
+    transform: scale(1.25);
+    transition-duration: 2s;
+    box-shadow: 0 10px 5px #c3c2ba;
+    border: solid #f87800 1px;
+  }
 
   &__item5 {
     width: 184px;
