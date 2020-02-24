@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 284px;
+    margin-bottom: 53px;
   }
   &__box-link {
     margin-top: 45px;
@@ -135,7 +135,7 @@ ul {
       margin-top: 30px;
     }
     &__box {
-      margin-top: 384px;
+      margin-bottom: 45px;
     }
   }
 }
@@ -204,6 +204,10 @@ ul {
   .header {
     padding-left: 275px;
     padding-right: 275px;
+
+    &__box {
+      margin-bottom: 13px;
+    }
   }
 }
 
