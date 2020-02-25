@@ -1,0 +1,13 @@
+.new-section {
+  color: white;
+  background-color: $colororange;
+  &__link {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media all and (min-width: 768px) {
+  .new-section {
+    background-color: $colorbackgroundfooter;
+  }
+}

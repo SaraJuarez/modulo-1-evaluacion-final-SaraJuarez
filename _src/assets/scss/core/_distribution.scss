@@ -42,6 +42,15 @@
   }
 }
 
+// NEW-SECTION
+
+.new-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 // MAIN//
 .main {
   height: 19%;
@@ -139,7 +148,15 @@ ul {
     }
   }
 }
-
+// .new-section
+@media all and (min-width: 768px) {
+  .new-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 // MAIN
 
 @media all and (min-width: 768px) {
